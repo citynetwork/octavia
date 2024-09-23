@@ -53,5 +53,14 @@ SUPPORTED_FLAVOR_SCHEMA = {
             "description": "When true, the VIP port will be created using an "
                            "SR-IOV VF port."
         },
+        consts.COMPUTE_ZONES: {
+            "type": "array",
+            "description": "Nova compute zones list"
+        },
+        consts.AVAILABILITY_ZONES: {
+            "type": "array",
+            "description": "Availability zones list to use for creating"
+                           "distributed Amphorae instances on"
+        }
     }
 }
